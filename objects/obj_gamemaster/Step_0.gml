@@ -15,7 +15,7 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 		baddieRequestMoveDown = false;
 		instance_destroy(obj_barrier);
 		wave = clamp(wave++, 0, 10);
-		
+		alarm_set(kStepSoundAlarm, -1);
 		return;
 	}
 	
@@ -53,7 +53,7 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 	
 	// wrap back to updating the first baddie and do some processing
 	if(updatingBaddie >= numBaddies)
-	{
+	{		
 		updatingBaddie = 0;
 		baddieMovingDown = baddieRequestMoveDown;
 		if(baddieMovingDown)	// move bomb drop down

@@ -6,6 +6,7 @@ kPhaseGameOver = 3;
 
 kBuildAlarm = 0;
 kUFOAlarm = 1;
+kStepSoundAlarm = 2;
 
 currentPhase = kPhaseBuild;
 
@@ -21,6 +22,7 @@ baddieRequestMoveDown = false;
 bombAvailable = false;
 
 wave = 0;
+stepSound = true;
 
 instance_image_index = 0;
 

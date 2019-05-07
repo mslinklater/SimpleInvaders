@@ -42,6 +42,7 @@ if(numBaddiesBuilt < 55)
 }
 else
 {
+	alarm_set(kStepSoundAlarm, 1);
 	// grid of baddies is fully set up
 	global.canPlayerMove = true;
 	currentPhase = kPhaseGame;
