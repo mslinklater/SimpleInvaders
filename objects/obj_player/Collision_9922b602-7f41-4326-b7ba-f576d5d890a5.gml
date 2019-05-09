@@ -4,7 +4,7 @@ global.playerAlive = false;
 instance_destroy(other);
 
 // stop any step sound alarm
-with(obj_gamemaster)
+with(obj_playmanager)
 {
 	alarm_set(kStepSoundAlarm, -1);
 }

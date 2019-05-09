@@ -12,11 +12,11 @@ instance_destroy(baddie);
 var numAliveBaddies = instance_number(obj_baddie);
 
 // update the occupancy list
-ds_list_set(obj_gamemaster.baddieOccupancyList, row*11 + column, false);
+ds_list_set(obj_playmanager.baddieOccupancyList, row*11 + column, false);
 
 // update the bomb spawn row
 
-with(obj_gamemaster)
+with(obj_playmanager)
 {
 	var firstRow = -1;
 	var thisRow = 0;

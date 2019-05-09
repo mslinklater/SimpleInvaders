@@ -2,7 +2,7 @@
 
 var hitBaddie = other;
 
-with(obj_gamemaster)
+with(obj_playmanager)
 {
 	var hitIndex = ds_list_find_index(baddieList, hitBaddie);
 	ds_list_delete(baddieList, hitIndex);
