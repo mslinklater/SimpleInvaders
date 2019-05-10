@@ -4,10 +4,39 @@
 
 draw_set_halign(fa_center);
 
-draw_text(120, 80, "PLAY");
-draw_text(120, 110, "SIMPLE INVADERS");
+var t = timer;
+var scale = 2 + (sin(t) * 0.75);
+draw_set_color(c_red);
+draw_text_transformed(120, 75, "SIMPLE", scale, scale, cos(t * 0.81) * 5.0);
 
-draw_text(120, 150, "*SCORE ADVANCE TABLE*");
+var t = timer+0.25;
+var scale = 2 + (sin(t) * 0.75);
+draw_set_color(c_yellow);
+draw_text_transformed(120, 75, "SIMPLE", scale, scale, cos(t * 0.81) * 5.0);
+
+var t = timer+0.5;
+var scale = 2 + (sin(t) * 0.75);
+draw_set_color(c_white);
+draw_text_transformed(120, 75, "SIMPLE", scale, scale, cos(t * 0.81) * 5.0);
+
+var t = timer * 0.9 + 2;
+var scale = 2 + (sin(t) * 0.75);
+draw_set_color(c_red);
+draw_text_transformed(120, 110, "INVADERS", scale, scale, cos(t * 0.81) * 5.0);
+
+var t = timer * 0.9 + 2.25;
+var scale = 2 + (sin(t) * 0.75);
+draw_set_color(c_yellow);
+draw_text_transformed(120, 110, "INVADERS", scale, scale, cos(t * 0.81) * 5.0);
+
+var t = timer * 0.9 + 2.5;
+var scale = 2 + (sin(t) * 0.75);
+draw_set_color(c_white);
+draw_text_transformed(120, 110, "INVADERS", scale, scale, cos(t * 0.81) * 5.0);
+
+timer+=0.05;
+
+//draw_text(120, 150, "*SCORE ADVANCE TABLE*");
 
 draw_set_halign(fa_left);
 draw_text(100, 180, "= ?  MYSTERY");

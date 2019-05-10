@@ -1,4 +1,4 @@
 /// @description
 
-speed = 1;
+speed = 0.8;
 direction = 0;

@@ -19,5 +19,5 @@ if(lives > 0)
 else
 {
 	// proper dead...
-	scr_endgame();
+	alarm_set(kAlarmGameOver,120);
 }

@@ -1,6 +1,7 @@
 /// @description
 
 kAlarmRevive = 0;
+kAlarmGameOver = 1;
 
 // position properly
 
