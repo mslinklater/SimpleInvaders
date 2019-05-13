@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "09d31fac-3c8b-41fb-bb15-0c5135c517a2",
+            "Value": {
+                "id": "d7c72383-4389-47a5-a453-3ec52082ba35",
+                "resourcePath": "timelines\\tml_test\\tml_test.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "0b4cc178-57dd-4697-9b94-1e9504193ed6",
             "Value": {
                 "id": "70611375-f62c-445a-b0d8-3d18bbbfba9c",
@@ -132,6 +140,14 @@
                 "id": "3277a0b8-80cd-4327-8625-4e8b66a100cd",
                 "resourcePath": "views\\33b52fa3-4147-4f44-8789-46cf6509a9c5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "34d0b839-da86-4a55-8b66-9897d6ed5734",
+            "Value": {
+                "id": "6dba11a7-070a-4793-9e8b-1496d59a27d8",
+                "resourcePath": "objects\\obj_ui_bouncetext\\obj_ui_bouncetext.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -519,6 +535,14 @@
             }
         },
         {
+            "Key": "be5845c1-5e4f-4aa7-9e0a-3b4fd7fab3e2",
+            "Value": {
+                "id": "b7832f8e-19dc-4b15-8606-2b223f9c0d5b",
+                "resourcePath": "scripts\\scr_dropBomb\\scr_dropBomb.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c0168367-2d16-4793-8a96-efb801099297",
             "Value": {
                 "id": "f204af93-1df8-4602-8a77-ccdfa778918e",
@@ -588,6 +612,14 @@
                 "id": "72619346-cc86-4084-a2ab-f4b73ed871d4",
                 "resourcePath": "sprites\\spr_dbg_barrier\\spr_dbg_barrier.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de7097fe-90b6-4e43-815b-5464c53d71ea",
+            "Value": {
+                "id": "66c2d4a0-598c-4d53-afa6-8515f2dbeb01",
+                "resourcePath": "views\\de7097fe-90b6-4e43-815b-5464c53d71ea.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -674,7 +706,8 @@
     "script_order": [
         "553c228c-f821-4e60-b3cd-73424c497e3b",
         "78b7a657-93a4-4d8d-ab67-5d4677bdc8d4",
-        "a64b76ea-73dd-4c82-a977-e201dfe7c4e5"
+        "a64b76ea-73dd-4c82-a977-e201dfe7c4e5",
+        "be5845c1-5e4f-4aa7-9e0a-3b4fd7fab3e2"
     ],
     "tutorial": ""
 }

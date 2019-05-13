@@ -1,7 +1,7 @@
 // All player lives lost... end the game
 
 // set phase
-obj_gamemaster.currentPhase = obj_gamemaster.kPhaseGameOver;
+obj_playmanager.currentPhase = obj_playmanager.kPhaseGameOver;
 
 // add high score
 highscore_add("PLAYER", score);
@@ -20,3 +20,5 @@ instance_destroy(obj_bullet);
 instance_destroy(obj_bomb);
 instance_destroy(obj_bomb_explosion);
 instance_destroy(obj_baddie_explosion);
+
+instance_destroy(obj_floor);

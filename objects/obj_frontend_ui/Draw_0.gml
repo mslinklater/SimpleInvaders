@@ -21,7 +21,7 @@ draw_text_transformed(120, 75, "SIMPLE", scale, scale, cos(t * 0.81) * 5.0);
 
 var t = timer * 0.9 + 2;
 var scale = 2 + (sin(t) * 0.75);
-draw_set_color(c_red);
+draw_set_color(c_red); 
 draw_text_transformed(120, 110, "INVADERS", scale, scale, cos(t * 0.81) * 5.0);
 
 var t = timer * 0.9 + 2.25;

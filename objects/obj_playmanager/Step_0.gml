@@ -1,4 +1,4 @@
-/// @description Update the game
+ /// @description Update the game
 if((starCounter % 5) == 0)
 {
 	instance_create_layer(random_range(0, 240), 0, "Stars", obj_star);
@@ -26,32 +26,29 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 	// update this frames baddie
 	updatingBaddie = clamp(updatingBaddie, 0, ds_list_size(baddieList) - 1);
 	
-//	if(baddieList[|updatingBaddie] != noone)
-//	{
-		with(baddieList[|updatingBaddie])
+	with(baddieList[|updatingBaddie])
+	{
+		if(other.baddieMovingDown)
 		{
-			if(other.baddieMovingDown)
-			{
-				y += kBaddieYSpeed;
-			}
-			else
-			{
-				x += other.baddieDelta;
-				image_index = 1 - image_index;
+			y += kBaddieYSpeed;
+		}
+		else
+		{
+			x += other.baddieDelta;
+			image_index = 1 - image_index;
 			
-				if(x >= room_width - kBaddieXBorder)
-				{
-					other.baddieDirection = kDirectionLeft;
-					other.baddieRequestMoveDown = true;
-				}
-				if(x <= kBaddieXBorder)
-				{
-					other.baddieDirection = kDirectionRight;
-					other.baddieRequestMoveDown = true;
-				}
+			if(x >= room_width - kBaddieXBorder)
+			{
+				other.baddieDirection = kDirectionLeft;
+				other.baddieRequestMoveDown = true;
+			}
+			if(x <= kBaddieXBorder)
+			{
+				other.baddieDirection = kDirectionRight;
+				other.baddieRequestMoveDown = true;
 			}
 		}
-//	}
+	}
 	
 	updatingBaddie++;
 	
@@ -79,32 +76,7 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 	// Decide wether to drop bombs
 	if(bombAvailable)
 	{
-		// which columns have baddies in them
-		var columnList = ds_list_create();
-		for(var iCol=0 ; iCol<11 ; iCol++)
-		{
-			var occupied = false;
-			for( var iRow=0 ; iRow<5 ; iRow++)
-			{
-				if(ds_list_find_value(baddieOccupancyList, (iRow*11) + iCol))
-				{
-					occupied = true;
-				}
-			}
-			if(occupied)
-			{
-				ds_list_add(columnList, iCol);
-			}
-		}
-		if(ds_list_size(columnList) > 0)
-		{
-			var chosenColumn = ds_list_find_value(columnList, irandom_range(0, ds_list_size(columnList)-1));
-			var xpos = kBaddieStartX + baddieColumnXPos + (kBaddieStartXStep * chosenColumn);
-			var ypos = baddieColumnYPos + kBaddieStartY - (baddieBombSpawnRow[|chosenColumn] * kBaddieStartYStep);
- 			instance_create_layer(xpos, ypos, "Instances", obj_bomb);
-		}
-		
-		bombAvailable = false;
+		scr_dropBomb();
 	}
 }
 
