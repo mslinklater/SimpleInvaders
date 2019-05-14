@@ -2,6 +2,7 @@
 
 global.playerAlive = false;
 instance_destroy(other);
+audio_play_sound(snd_dead, 0, 0);
 
 // stop any step sound alarm
 with(obj_playmanager)

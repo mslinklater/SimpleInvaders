@@ -1,6 +1,7 @@
-/// @description
+ /// @description
 
 var hitBaddie = other;
+audio_play_sound(snd_aliendead, 0, 0);
 
 with(obj_playmanager)
 {

@@ -20,5 +20,6 @@ instance_destroy(obj_bullet);
 instance_destroy(obj_bomb);
 instance_destroy(obj_bomb_explosion);
 instance_destroy(obj_baddie_explosion);
+instance_destroy(obj_ufo);
 
 instance_destroy(obj_floor);

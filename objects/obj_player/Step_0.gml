@@ -27,6 +27,7 @@ if(global.playerAlive)
 		var bullet = instance_create_layer(x, y-10, "Instances", obj_bullet);
 		bullet.direction = 90;
 		bullet.speed = kBulletSpeed;
+		audio_play_sound(snd_shoot, 0, 0);
 	}
 }
 else
