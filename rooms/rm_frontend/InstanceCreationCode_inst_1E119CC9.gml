@@ -1,1 +1,0 @@
-theText = "PLAP";
