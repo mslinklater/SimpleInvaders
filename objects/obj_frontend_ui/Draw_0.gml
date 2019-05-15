@@ -1,9 +1,9 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
 
 
 draw_set_halign(fa_center);
-
+/*
 var t = timer;
 var scale = 2 + (sin(t) * 0.75);
 draw_set_color(c_red);
@@ -48,5 +48,6 @@ draw_sprite(spr_ufo, 0, 80, 184);
 draw_sprite(spr_baddie1, 0, 80, 204);
 draw_sprite(spr_baddie2, 0, 80, 224);
 draw_sprite(spr_baddie3, 0, 80, 244);
+*/
 
 

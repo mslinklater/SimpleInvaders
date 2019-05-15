@@ -4,8 +4,8 @@
 draw_set_halign(fa_center);	// text moves around center
 
 var rt = t;
-var yt = t+textphase;
-var wt = t+(textphase*2);
+var yt = t+textPhase;
+var wt = t+(textPhase*2);
 
 // red layer
 var scale = scaleMid + (sin(rt * scaleSpeed) * scaleRange);
@@ -22,4 +22,4 @@ var scale = scaleMid + (sin(wt * scaleSpeed) * scaleRange);
 draw_set_color(c_white);
 draw_text_transformed(x, y, theText, scale, scale, cos(wt * rotSpeed) * rotScale);
 
-t += globalSpeed;	// increment timer
+t += globalSpeed * 0.01  ;	// increment timer
