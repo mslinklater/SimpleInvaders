@@ -1,3 +1,4 @@
+function scr_globals() {
 #macro kPlayerY 270
 #macro kPlayerXBorder 25
 #macro kPlayerSpeed 1
@@ -19,3 +20,6 @@
 
 #macro kBulletSpeed 4
 #macro kBombSpeed 2
+
+
+}

@@ -1,114 +1,86 @@
 {
-    "id": "8e724861-4c1b-48aa-a758-c818b6c03b21",
-    "modelName": "GMSprite",
-    "mvc": "1.12",
-    "name": "spr_ufo",
-    "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 7,
-    "bbox_left": 0,
-    "bbox_right": 15,
-    "bbox_top": 0,
-    "bboxmode": 0,
-    "colkind": 1,
-    "coltolerance": 0,
-    "edgeFiltering": false,
-    "frames": [
-        {
-            "id": "bb0be134-2ce2-479a-8328-3b59e37a285a",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "8e724861-4c1b-48aa-a758-c818b6c03b21",
-            "compositeImage": {
-                "id": "17a5d48e-3afe-49ea-8b59-70d23cea8cb3",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "bb0be134-2ce2-479a-8328-3b59e37a285a",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "195d6acc-a93c-4ee5-81e2-051944eede67",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "bb0be134-2ce2-479a-8328-3b59e37a285a",
-                    "LayerId": "ae232bdf-93a7-4ed8-9d50-99c183121b28"
-                }
-            ]
-        },
-        {
-            "id": "a5ac185e-a967-4853-a610-3cf7ebf1ae81",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "8e724861-4c1b-48aa-a758-c818b6c03b21",
-            "compositeImage": {
-                "id": "ca6e59fa-1ceb-450a-9235-07ee18c698cb",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "a5ac185e-a967-4853-a610-3cf7ebf1ae81",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "2e14386a-33da-4c81-b8be-fc2fcdd7035a",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "a5ac185e-a967-4853-a610-3cf7ebf1ae81",
-                    "LayerId": "ae232bdf-93a7-4ed8-9d50-99c183121b28"
-                }
-            ]
-        },
-        {
-            "id": "108d0430-e224-40f6-9534-9869592486df",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "8e724861-4c1b-48aa-a758-c818b6c03b21",
-            "compositeImage": {
-                "id": "842a0082-b0a0-472d-a1a5-ebf5cbcd9c8c",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "108d0430-e224-40f6-9534-9869592486df",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "ba4e58df-652b-471d-9c6c-4ab01cf5d7b4",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "108d0430-e224-40f6-9534-9869592486df",
-                    "LayerId": "ae232bdf-93a7-4ed8-9d50-99c183121b28"
-                }
-            ]
-        }
-    ],
-    "gridX": 0,
-    "gridY": 0,
-    "height": 8,
-    "layers": [
-        {
-            "id": "ae232bdf-93a7-4ed8-9d50-99c183121b28",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "8e724861-4c1b-48aa-a758-c818b6c03b21",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "default",
-            "opacity": 100,
-            "visible": true
-        }
-    ],
-    "origin": 4,
-    "originLocked": false,
-    "playbackSpeed": 5,
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 4,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 0,
+  "bbox_right": 15,
+  "bbox_top": 0,
+  "bbox_bottom": 7,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 16,
+  "height": 8,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"bb0be134-2ce2-479a-8328-3b59e37a285a","path":"sprites/spr_ufo/spr_ufo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bb0be134-2ce2-479a-8328-3b59e37a285a","path":"sprites/spr_ufo/spr_ufo.yy",},"LayerId":{"name":"ae232bdf-93a7-4ed8-9d50-99c183121b28","path":"sprites/spr_ufo/spr_ufo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ufo","path":"sprites/spr_ufo/spr_ufo.yy",},"resourceVersion":"1.0","name":"bb0be134-2ce2-479a-8328-3b59e37a285a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a5ac185e-a967-4853-a610-3cf7ebf1ae81","path":"sprites/spr_ufo/spr_ufo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a5ac185e-a967-4853-a610-3cf7ebf1ae81","path":"sprites/spr_ufo/spr_ufo.yy",},"LayerId":{"name":"ae232bdf-93a7-4ed8-9d50-99c183121b28","path":"sprites/spr_ufo/spr_ufo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ufo","path":"sprites/spr_ufo/spr_ufo.yy",},"resourceVersion":"1.0","name":"a5ac185e-a967-4853-a610-3cf7ebf1ae81","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"108d0430-e224-40f6-9534-9869592486df","path":"sprites/spr_ufo/spr_ufo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"108d0430-e224-40f6-9534-9869592486df","path":"sprites/spr_ufo/spr_ufo.yy",},"LayerId":{"name":"ae232bdf-93a7-4ed8-9d50-99c183121b28","path":"sprites/spr_ufo/spr_ufo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ufo","path":"sprites/spr_ufo/spr_ufo.yy",},"resourceVersion":"1.0","name":"108d0430-e224-40f6-9534-9869592486df","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"spr_ufo","path":"sprites/spr_ufo/spr_ufo.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
-    "sepmasks": false,
-    "swatchColours": null,
-    "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "type": 0,
-    "width": 16,
-    "xorig": 8,
-    "yorig": 4
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 3.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"deadd42d-b4c3-40b8-94c3-cfee89dcda73","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bb0be134-2ce2-479a-8328-3b59e37a285a","path":"sprites/spr_ufo/spr_ufo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"07d0d7a8-2d45-4604-9030-8cf5453d9567","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5ac185e-a967-4853-a610-3cf7ebf1ae81","path":"sprites/spr_ufo/spr_ufo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ba951ffd-7041-47ed-9484-a79af449f6fc","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"108d0430-e224-40f6-9534-9869592486df","path":"sprites/spr_ufo/spr_ufo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1920,
+    "backdropHeight": 1080,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 8,
+    "yorigin": 4,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spr_ufo","path":"sprites/spr_ufo/spr_ufo.yy",},
+    "resourceVersion": "1.3",
+    "name": "",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ae232bdf-93a7-4ed8-9d50-99c183121b28","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "parent": {
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "spr_ufo",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

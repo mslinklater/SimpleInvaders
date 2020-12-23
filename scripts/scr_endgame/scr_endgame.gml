@@ -1,25 +1,30 @@
-// All player lives lost... end the game
+function scr_endgame() {
+	// All player lives lost... end the game
 
-// set phase
-obj_playmanager.currentPhase = obj_playmanager.kPhaseGameOver;
+	// set phase
+	obj_playmanager.currentPhase = obj_playmanager.kPhaseGameOver;
 
-// add high score
-highscore_add("PLAYER", score);
+	// add high score
+	highscore_add("PLAYER", score);
 
-// remove all the aliens
-instance_destroy(obj_baddie);
+	// remove all the aliens
+	instance_destroy(obj_baddie);
 
-// remove the barriers
-instance_destroy(obj_barrier);
+	// remove the barriers
+	instance_destroy(obj_barrier);
 
-// remove the player
-instance_destroy(obj_player);
+	// remove the player
+	instance_destroy(obj_player);
 
-// remove all bombs, bullets and explosions
-instance_destroy(obj_bullet);
-instance_destroy(obj_bomb);
-instance_destroy(obj_bomb_explosion);
-instance_destroy(obj_baddie_explosion);
-instance_destroy(obj_ufo);
+	// remove all bombs, bullets and explosions
+	instance_destroy(obj_bullet);
+	instance_destroy(obj_bomb);
+	instance_destroy(obj_bomb_explosion);
+	instance_destroy(obj_baddie_explosion);
+	instance_destroy(obj_ufo);
 
-instance_destroy(obj_floor);
+	instance_destroy(obj_floor);
+
+
+
+}
